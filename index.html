@@ -5,6 +5,8 @@
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/react-router-dom/5.0.1/react-router-dom.js'></script>
+    <script defer src="@babel/core"></script>
+    <script defer src="/assets/app.js"></script>
 <style>
 body {
   margin: 0;
@@ -62,7 +64,9 @@ nav a.active {
         );
       };
 
-      const Places = ({ places })=> {
+
+//PLACES
+const Places = ({ places })=> {
         return (
           <ul>
             {
@@ -72,7 +76,10 @@ nav a.active {
         );
       };
 
-      const Things = ({ things })=> {
+
+//THINGS
+
+const Things = ({ things })=> {
         return (
           <ul>
             {

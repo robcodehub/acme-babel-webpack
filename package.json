@@ -1,0 +1,29 @@
+{
+  "name": "acme-babel-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon server --ignore assets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robcodehub/acme-babel-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": ["@babel/react"]
+  },
+  "bugs": {
+    "url": "https://github.com/robcodehub/acme-babel-webpack/issues"
+  },
+  "homepage": "https://github.com/robcodehub/acme-babel-webpack#readme",
+  "dependencies": {
+    "@babel/core": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.0"
+  }
+}
